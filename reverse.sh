@@ -2,6 +2,7 @@
 reverse (){
   st=$1
   rev=$(echo "$st" | rev)
+  #Force base-10 evaluation using '10#...' to strip the zero safely
   clean=$((10#$rev))
   echo $clean
 
