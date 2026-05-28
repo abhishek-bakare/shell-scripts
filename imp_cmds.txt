@@ -1,0 +1,2 @@
+#sudo usermod -u 1411 -d /var/www/james -m james    - to add user with -u UID, assign home directory -d, -m automatically move contents to new dir.
+
