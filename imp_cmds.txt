@@ -1,2 +1,14 @@
 #sudo usermod -u 1411 -d /var/www/james -m james    - to add user with -u UID, assign home directory -d, -m automatically move contents to new dir.
 
+#truncate -s 0 /path/to/file.log        - s for size 0 for path
+
+#find / -type f -size +500M          - find / of type file(f) of size above 500mb
+
+#vmstat 1 5      - shows system cpu, mem, usage in 1 sec for 5 times
+
+#crontab -l       - see if any scheduled jobs are there
+
+#journalctl -xe      - shows recent sys error
+
+#ss -tulnp | grep 80    - shows which service listening on port 80
+
