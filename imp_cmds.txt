@@ -12,3 +12,7 @@
 
 #ss -tulnp | grep 80    - shows which service listening on port 80
 
+#lsof -i :80        - shows which service port 80 is using
+
+
+
